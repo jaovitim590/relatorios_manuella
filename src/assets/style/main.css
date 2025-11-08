@@ -101,3 +101,7 @@ img{
   object-fit: cover;
   width: 1.5em;
 }
+
+a {
+  text-decoration: none;
+}
