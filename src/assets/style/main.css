@@ -103,5 +103,14 @@ img{
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none; /* tira o sublinhado */
+  color: inherit;        /* usa a mesma cor do texto ao redor */
+}
+
+a:visited {
+  color: inherit;        /* mantém a cor mesmo após clicar */
+}
+
+a:hover {
+  opacity: 0.8;          /* leve efeito ao passar o mouse (opcional) */
 }
